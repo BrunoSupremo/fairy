@@ -1,0 +1,15 @@
+{
+	"info": {
+		"name": "fairy",
+		"version": 3
+	},
+	"aliases": {
+		"fairy":"file(fairy.json)"
+	},
+	"mixintos": {
+		"stonehearth:mixins:base_human": "file(add_component.json)"
+	},
+	"components": {
+		"fairy":"file(fairy_component.lua)"
+	}
+}

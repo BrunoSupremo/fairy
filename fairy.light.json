@@ -1,0 +1,23 @@
+{
+    "name": "fire",
+    "duration": 1.8,
+    "loops": true,
+    "intensity": {
+        "over_lifetime": {
+            "kind": "CONSTANT",
+            "values": [0.45]
+        }
+    },
+    "color": {
+        "start": {
+            "kind": "CONSTANT",
+            "values": [0.5, 0.745, 0.875]
+        }
+    },
+    "radius": {
+        "start": {
+            "kind": "CONSTANT",
+            "values": [2.0]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"type": "entity",
+	"components": {
+		"render_info": {
+			"animation_table": "file(fairy_skeleton.json)"
+		},
+		"effect_list": {
+			"default": "fairy/effects/fairy_effect.json"
+		},
+		"stonehearth:equipment_piece": {
+			"no_drop": true,
+			"slot": "fairy"
+		},
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(fairy.qb)"
+				]
+			}
+		}
+	}
+}
